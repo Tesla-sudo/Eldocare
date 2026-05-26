@@ -1,0 +1,18 @@
+a. Case Management Service 
+- Creating a new case (from voice call or CHV submission)
+- Storing symptoms + anonymized data
+- Triggering AI risk classification
+- Managing referrals (warm handoffs)
+- Fetching cases for Admin & Hospital dashboards
+
+b. Referral + Hospital dashboard endpoints (warm handoff views)
+c. Admin subscription management
+d. Row Level Security (RLS) policies for multi-tenancy
+
+Frontend
+1. Implement responsive mobile-first design
+2. Login users - Hospitals, CHVs, Govt access, admin(in charge of controlling signups, premium listings etc)
+3. Subscription pricing
+4. PWA service worker improvements
+5. PWA offline caching strategy
+6. Roe based access control
